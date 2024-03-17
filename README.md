@@ -17,8 +17,10 @@
   <td>Завершен</td>
 </table>
 
-# PET проект:
+# PET проекты:
 
+<details open>
+  <summary>Список PET проектов</summary>
 <table>
 <tr>
   <th>Название проекта</th>
@@ -27,10 +29,28 @@
   <th>Навыки и инструменты</th>
   <th>Задачи проекта</th>  
 </tr> 
-<details open>
-  <summary>Список проектов по теме</summary>
-<table>
+
 <tr>
+  <td><a href = "https://github.com/nataktd/text_classification_for_survey_responses/blob/main/baseline_1.ipynb">1. Классификация текста сообщений пользователей сервиса</a></td>
+  <td>Интернет-сервисы
+  Стриминговый сервис</td>
+  <td>Data Analyst, Машинное обучение</td>
+  <td>Matplotlib
+  Pandas
+  Python
+  Scikit-learn
+  LogisticRegression
+  LGBMClassifier 
+  XGBClassifier
+  исследовательский анализ данных,
+  многоклассовая классификация
+  кроссвалидация
+  обратка текста
+  графики, визуализация</td>
+  <td>Заказчик в качестве входных данных предоставил текстовые ответы на опрос, а также выбранные теги, отражающие тематику каждого ответа. Каждый ответ может быть отнесен к одному или нескольким классам. Цель проекта заключается в том, чтобы для каждого ответа предсказать все классы, которые могут быть затронуты. </td> 
+</tr>
+
+tr>
   <td><a href = "https://github.com/nataktd/Forecasting-repeat-purchases/blob/main/Forecasting-repeat-purchases.ipynb">1. Прогнозирование повторных покупок в течение 30 дней</a></td>
   <td>Интернет-сервисы
   Стриминговый сервис</td>
